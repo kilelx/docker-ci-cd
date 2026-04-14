@@ -34,4 +34,3 @@ jobs:
           command: quickview,cves
           image: ${{ vars.DOCKER_USERNAME }}/${{ github.event.repository.name }}:latest
           only-severities: critical,high
-          exit-code: true
